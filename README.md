@@ -46,7 +46,7 @@
 + [Eclipse->IDEA](https://blog.csdn.net/q20010619/article/details/125096051)
 
 + 学校老师硬性要求软件的话，还是按要求来。可以先问一下是否可以选择其他软件开发。
-+ 用户账号密码：  相思断红肠 123456
++ 用户账号密码：  雨伞下的米粒 123456
 + 图书管理员账号密码:   admin 123456
 + 系统管理员账号密码:   root 123456
 + [前端样式参考](https://gitee.com/mingyuefusu/tushuguanlixitong)  感谢原作者**明月复苏**
@@ -110,17 +110,18 @@
 
 ### t_users表
 
-| 列名        | 数据类型以及长度 | 备注                                              |
-| ----------- | ---------------- | ------------------------------------------------- |
-| user_id     | int(11)          | 主键 非空 自增 用户表的唯一标识                   |
+| 列名          | 数据类型以及长度 | 备注                                              |
+|-------------| ---------------- | ------------------------------------------------- |
+| user_id     | int(11)          | 主键 非空 自增 用户表的唯一标识                       |
 | username    | varchar(32)      | 用户名 非空                                       |
 | password    | varchar(32)      | 密码(MD5加密) 非空                                |
 | card_name   | varchar(10)      | 真实姓名 非空                                     |
-| card_number | Bigint(11)       | 借阅证编号 固定 11位随机生成 非空(后文都改BigInt) |
-| rule_number | int(11)          | 规则编号 可以自定义 也就是权限功能                |
+| card_number | Bigint(11)       | 借阅证编号 固定 11位随机生成 非空(后文都改BigInt)     |
+| rule_number | int(11)          | 规则编号 可以自定义 也就是权限功能                    |
 | status      | int(1)           | 1表示可用 0表示禁用                               |
 | create_time | datetime         | 创建时间 Java注解 JsonFormatter                   |
 | update_time | datetime         | 更新时间 Java注解 JsonFormatter                   |
+| salt        | varchar         | 存储密码哈希值的盐值                                 |
 
 ### t_admins表
 
