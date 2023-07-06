@@ -28,9 +28,7 @@ import java.time.LocalDateTime;
 import java.util.*;
 
 /**
- * @author 赵天宇
  * @description 针对表【t_books】的数据库操作Service实现
- * @createDate 2023-02-04 18:07:43
  */
 @Service
 public class BooksServiceImpl extends ServiceImpl<BooksMapper, Books>

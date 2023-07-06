@@ -11,7 +11,6 @@ import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 /**
- *
  * @TableName t_violation
  */
 @TableName(value ="t_violation")

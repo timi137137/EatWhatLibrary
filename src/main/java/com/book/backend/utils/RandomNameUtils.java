@@ -1,13 +1,10 @@
 package com.book.backend.utils;
+
 import cn.hutool.core.util.RandomUtil;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Random;
 
-
-/**
- * @author 赵天宇
- */
 public class RandomNameUtils {
 
     /**

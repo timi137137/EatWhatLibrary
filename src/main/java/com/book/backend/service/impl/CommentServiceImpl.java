@@ -13,9 +13,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author 赵天宇
  * @description 针对表【t_comment】的数据库操作Service实现
- * @createDate 2023-02-06 19:19:20
  */
 @Service
 public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment>

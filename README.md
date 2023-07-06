@@ -1,19 +1,3 @@
-## ☀️新手必读
-
-+ 本项目拥有完整的API后台接口文档（文尾)(重点⭐)
-+ 项目部署视频正在录制
-+ 如果项目对您有所帮助，可以Star⭐一下，受到鼓励的我会继续加油。
-+ [项目在线演示地址](https://abc.xiaobaitiao.club/)
-+ [项目前端地址](https://gitee.com/falle22222n-leaves/vue_-book-manage-system)
-+ [项目后端地址](https://gitee.com/falle22222n-leaves/vue_-book-manage-system_backend)
-+ [项目部署视频](https://www.bilibili.com/video/BV1314y1Z7SS/?pop_share=1&vd_source=e40a9464b71684502f289cff3f51514f)
-
-## ☀️个人介绍
-
-![img](http://xxx.xiaobaitiao.club/project/微信加好友.png)
-
-![img](http://xxx.xiaobaitiao.club/project/QQ加好友.jpg)
-
 ## ☀️技术栈介绍
 
 ### ☃️前端主要技术栈

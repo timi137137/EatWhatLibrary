@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
-* @author 赵天宇
 * @description 针对表【t_book_admins】的数据库操作Service
-* @createDate 2023-02-04 16:55:39
 */
 public interface BookAdminsService extends IService<BookAdmins> {
 

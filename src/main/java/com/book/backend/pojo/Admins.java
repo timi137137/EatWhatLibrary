@@ -25,14 +25,19 @@ public class Admins implements Serializable {
     private String username;
 
     /**
-     * 密码(MD5加密)
+     * 密码哈希值
      */
     private String password;
 
     /**
+     * 加密盐值
+     */
+    private String salt;
+
+    /**
      * 管理员真实姓名
      */
-    private String adminName;
+    private String cardName;
 
     /**
      * 1表示可用 0表示禁用

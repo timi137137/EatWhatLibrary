@@ -8,10 +8,6 @@ package com.book.backend.utils;
 
 import java.util.Scanner;
 
-
-/**
- * @author 赵天宇
- */
 public class Utility {
     /**
      * 静态属性

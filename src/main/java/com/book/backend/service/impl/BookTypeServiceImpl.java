@@ -14,9 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 /**
-* @author 赵天宇
 * @description 针对表【t_book_type】的数据库操作Service实现
-* @createDate 2023-02-04 18:51:24
 */
 @Service
 public class BookTypeServiceImpl extends ServiceImpl<BookTypeMapper, BookType>

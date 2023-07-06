@@ -7,7 +7,6 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- *
  * @TableName t_comment
  */
 @TableName(value ="t_comment")

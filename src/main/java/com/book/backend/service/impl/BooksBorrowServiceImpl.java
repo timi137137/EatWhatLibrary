@@ -29,9 +29,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
- * @author 赵天宇
  * @description 针对表【t_books_borrow】的数据库操作Service实现
- * @createDate 2023-02-05 18:53:07
  */
 @Service
 public class BooksBorrowServiceImpl extends ServiceImpl<BooksBorrowMapper, BooksBorrow>

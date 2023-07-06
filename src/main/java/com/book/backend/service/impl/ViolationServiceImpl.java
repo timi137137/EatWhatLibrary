@@ -25,9 +25,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author 赵天宇
  * @description 针对表【t_violation】的数据库操作Service实现
- * @createDate 2023-02-06 16:31:20
  */
 @Service
 public class ViolationServiceImpl extends ServiceImpl<ViolationMapper, Violation>

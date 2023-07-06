@@ -7,7 +7,6 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- *
  * @TableName t_book_type
  */
 @TableName(value ="t_book_type")

@@ -7,9 +7,6 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @author 赵天宇
- */
 @Configuration
 @MapperScan("com.blog.backend.mapper")
 public class MyBatisConfig {

@@ -5,9 +5,6 @@ import lombok.Data;
 
 import java.io.Serializable;
 
-/**
- * @author 赵天宇
- */
 @Data
 public class BookRuleDTO extends BookRule implements Serializable {
     public String[] checkList;

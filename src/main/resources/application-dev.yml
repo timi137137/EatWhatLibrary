@@ -7,7 +7,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/bms_boot?characterEncoding=utf8&useSSL=false
     username: root
-    password: hsp
+    password: 123456
 server:
   port: 8889 #配置后端接口的端口号
   servlet: #配置后端请求的根路径  http://127.0.0.1:8889/api

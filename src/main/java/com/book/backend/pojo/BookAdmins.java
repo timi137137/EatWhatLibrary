@@ -7,7 +7,6 @@ import java.util.Date;
 import lombok.Data;
 
 /**
- *
  * @TableName t_book_admins
  */
 @TableName(value ="t_book_admins")
@@ -25,14 +24,19 @@ public class BookAdmins implements Serializable {
     private String username;
 
     /**
-     * 密码md5加密
+     * 密码哈希值
      */
     private String password;
 
     /**
+     * 加密盐值
+     */
+    private String salt;
+
+    /**
      * 图书管理员真实姓名
      */
-    private String bookAdminName;
+    private String cardName;
 
     /**
      * 1表示可用 0表示禁用

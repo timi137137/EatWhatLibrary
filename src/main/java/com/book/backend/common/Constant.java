@@ -1,7 +1,6 @@
 package com.book.backend.common;
 
 /**
- * @author 赵天宇
  * 常量类
  * 防止魔法值
  */
@@ -39,7 +38,7 @@ public class Constant {
      */
     public static final String USERDISABLE = "禁用";
     /**
-     * 密码超过30，判定为md5加密字符
+     * 密码超过30，判定为加密字符
      */
     public static final Integer MD5PASSWORD = 30;
 }

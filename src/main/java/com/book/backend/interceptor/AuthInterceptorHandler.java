@@ -13,9 +13,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
 
-/**
- * @author 赵天宇
- */
 public class AuthInterceptorHandler implements HandlerInterceptor {
     @Autowired
     private JwtProperties jwtProperties;

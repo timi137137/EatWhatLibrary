@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @author 赵天宇
- */
 @RestController
 @RequestMapping("/admin")
 public class AdminLoginController {

@@ -32,6 +32,12 @@ import javax.annotation.Resource;
 public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users>
         implements UsersService {
 
+    @Override
+    public R<String> register(Users users) {
+        // TODO: 实现用户注册功能
+        return null;
+    }
+
     @Resource
     private JwtKit jwtKit;
 

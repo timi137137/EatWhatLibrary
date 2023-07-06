@@ -11,7 +11,6 @@ import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 
 /**
- *
  * @TableName t_books_borrow
  */
 @TableName(value ="t_books_borrow")

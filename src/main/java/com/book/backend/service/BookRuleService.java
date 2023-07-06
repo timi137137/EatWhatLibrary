@@ -12,9 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import java.util.List;
 
 /**
-* @author 赵天宇
 * @description 针对表【t_book_rule】的数据库操作Service
-* @createDate 2023-02-05 15:11:20
 */
 public interface BookRuleService extends IService<BookRule> {
     /**

@@ -3,9 +3,6 @@ package com.book.backend.utils;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * @author 赵天宇
- */
 public class BorrowDateUtil {
     public static String [] getDateArray(LocalDateTime now){
         String nowFormat = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));

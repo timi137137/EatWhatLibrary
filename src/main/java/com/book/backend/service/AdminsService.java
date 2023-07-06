@@ -8,9 +8,7 @@ import com.book.backend.pojo.dto.UsersDTO;
 import org.springframework.web.bind.annotation.RequestBody;
 
 /**
-* @author 赵天宇
 * @description 针对表【t_admins】的数据库操作Service
-* @createDate 2023-02-03 20:01:01
 */
 public interface AdminsService extends IService<Admins> {
 
