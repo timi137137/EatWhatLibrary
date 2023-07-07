@@ -2,7 +2,6 @@ package com.book.backend.utils;
 
 
 import com.book.backend.common.JwtProperties;
-import com.book.backend.pojo.Users;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
