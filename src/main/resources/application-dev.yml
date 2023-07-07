@@ -9,8 +9,8 @@ spring:
     username: root
     password: 123456
 server:
-  port: 8081 #配置后端接口的端口号
-  servlet: #配置后端请求的根路径  http://127.0.0.1:8081/api
+  port: 6688 #配置后端接口的端口号
+  servlet: #配置后端请求的根路径  http://127.0.0.1:6688/api
     context-path: "/api"
 #jwt config
 jwt:

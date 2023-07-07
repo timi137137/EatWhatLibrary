@@ -2,7 +2,7 @@
 
 ## 1.1API 接口说明
 
- + 接口基准地址:http://127.0.0.1:8081/api/
+ + 接口基准地址:http://127.0.0.1:6688/api/
  + 服务端已开启CORS跨域支持
  + API认证使用Token认证
  + 需要授权的API，在请求头中使用Authorization字段提供token令牌
