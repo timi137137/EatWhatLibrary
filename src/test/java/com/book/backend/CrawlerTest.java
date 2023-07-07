@@ -20,12 +20,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
-/**
- * @author <a href="https://github.com/luoye6">小白条
- * @from <a href="https://luoye6.github.io/"> 个人博客
- */
 @SpringBootTest
 public class CrawlerTest {
     @Test

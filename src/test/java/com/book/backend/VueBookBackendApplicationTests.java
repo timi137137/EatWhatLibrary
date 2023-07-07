@@ -1,9 +1,7 @@
 package com.book.backend;
 
-import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.book.backend.pojo.Admins;
 import com.book.backend.pojo.Users;
-import com.book.backend.pojo.Violation;
 import com.book.backend.service.AdminsService;
 import com.book.backend.service.BookAdminsService;
 import com.book.backend.service.UsersService;
@@ -17,11 +15,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import javax.swing.text.DateFormatter;
-import java.text.DateFormat;
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 
 @SpringBootTest
