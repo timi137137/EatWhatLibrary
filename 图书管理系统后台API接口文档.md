@@ -210,9 +210,9 @@
     "msg": "获取用户数据成功",
     "data": {
         "userId": 1923,
-        "username": "雨伞下的米粒",
+        "username": "相思断红肠",
         "password": "",
-        "cardName": "陈雯琋",
+        "cardName": "张三",
         "cardNumber": 18012345678,
         "ruleNumber": 18,
         "status": 1,
@@ -520,9 +520,9 @@
     "msg": "获取用户信息成功",
     "data": {
         "userId": 1923,
-        "username": "雨伞下的米粒",
+        "username": "相思断红肠",
         "password": "e10adc3949ba59abbe56e057f20f883e",
-        "cardName": "陈雯琋",
+        "cardName": "张三",
         "cardNumber": 18012345678,
         "ruleNumber": 18,
         "status": 1,
@@ -1876,9 +1876,9 @@
         "records": [
             {
                 "userId": 1923,
-                "username": "雨伞下的米粒",
+                "username": "相思断红肠",
                 "password": "e10adc3949ba59abbe56e057f20f883e",
-                "cardName": "陈雯琋",
+                "cardName": "张三",
                 "cardNumber": 18012345678,
                 "ruleNumber": 188,
                 "status": 1,
@@ -1971,9 +1971,9 @@
     "msg": "获取用户信息成功",
     "data": {
         "userId": 1923,
-        "username": "雨伞下的米粒",
+        "username": "相思断红肠",
         "password": "e10adc3949ba59abbe56e057f20f883e",
-        "cardName": "陈雯琋",
+        "cardName": "张三",
         "cardNumber": 18012345678,
         "ruleNumber": 188,
         "status": 1,
