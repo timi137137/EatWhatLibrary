@@ -31,7 +31,7 @@ public class AdminsServiceImpl extends ServiceImpl<AdminsMapper, Admins>
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "xiaobaitiao";
+    private static final String SALT = "yusanxiademil";
     @Resource
     private UsersService usersService;
     @Resource

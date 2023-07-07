@@ -21,4 +21,10 @@
         card_name,card_number,rule_number,
         status,create_time,update_time
     </sql>
+
+    <!-- 插入用户 -->
+    <insert id="insertUser" parameterType="com.book.backend.pojo.Users">
+        INSERT INTO users(username, password, card_name, card_number, rule_number, status, create_time, update_time)
+        VALUES(#{username}, #{password}, #{cardName}, #{cardNumber}, #{ruleNumber}, #{status}, #{createTime}, #{updateTime})
+    </insert>
 </mapper>
