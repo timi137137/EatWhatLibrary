@@ -1,15 +1,17 @@
 package com.book.backend.service;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.book.backend.common.BasePage;
 import com.book.backend.common.R;
 import com.book.backend.pojo.BookAdmins;
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.book.backend.pojo.dto.ViolationDTO;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 
 /**
-* @description 针对表【t_book_admins】的数据库操作Service
-*/
+ * @description 针对表【t_book_admins】的数据库操作Service
+ */
 public interface BookAdminsService extends IService<BookAdmins> {
 
     /**

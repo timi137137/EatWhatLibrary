@@ -14,6 +14,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 根据用户ID获取用户信息
+     *
      * @param userId 用户ID
      * @return R<Users>
      */
@@ -21,6 +22,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 修改用户密码
+     *
      * @param users 用户对象（需要包含新密码和旧密码）
      * @return R<String>
      */
@@ -28,6 +30,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 借阅用户登录
+     *
      * @param users 用户对象
      * @return R<Users>
      */
@@ -37,6 +40,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 获取借阅证列表(用户列表)
+     *
      * @param basePage 分页参数
      * @return R<Page<Users>>
      */
@@ -44,6 +48,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 根据用户ID获取用户信息（用于回显借阅证信息）
+     *
      * @param userId 用户ID
      * @return R<UsersDTO>
      */
@@ -51,6 +56,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 修改借阅证信息(用户信息)
+     *
      * @param usersDTO 用户DTO
      * @return R<String>
      */
@@ -58,6 +64,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 删除借阅证信息 根据用户id
+     *
      * @param userId 用户ID
      * @return R<String>
      */
@@ -65,6 +72,7 @@ public interface UsersService extends IService<Users> {
 
     /**
      * 用户注册功能
+     *
      * @param users 用户对象
      * @return R<String>
      */
