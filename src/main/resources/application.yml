@@ -41,9 +41,3 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.book.backend.controller
-
-jwt:
-  secret: 'my-secret-key'
-  tokenHeader: 'Authorization'
-  expiration: 604800000
-  tokenHead: 'Bearer '
