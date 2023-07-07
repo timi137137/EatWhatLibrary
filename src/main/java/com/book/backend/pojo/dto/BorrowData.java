@@ -3,7 +3,6 @@ package com.book.backend.pojo.dto;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.Date;
 
 @Data
 public class BorrowData implements Serializable {
