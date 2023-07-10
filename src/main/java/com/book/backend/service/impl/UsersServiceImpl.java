@@ -118,7 +118,7 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users>
         Users user = this.getOne(userWrapper);
         if (user == null) {
             result.setStatus(404);
-            return R.error("用户名不存在");
+            return R.error("用户名禁止为空");
         }
         // 用户存在 判断是否为禁用状态
         if (Constant.DISABLE.equals(user.getStatus())) {

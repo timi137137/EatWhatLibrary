@@ -35,7 +35,7 @@ public class BookAdminsServiceImpl extends ServiceImpl<BookAdminsMapper, BookAdm
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yusanxiademil";
+    private static final String SALT = "xiaobaitiao";
     @Resource
     private JwtKit jwtKit;
 

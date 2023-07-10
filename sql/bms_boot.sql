@@ -1,17 +1,17 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 43.139.154.220
+ Source Server         : localhost_3306
  Source Server Type    : MySQL
- Source Server Version : 50650
- Source Host           : 43.139.154.220:3306
+ Source Server Version : 50729 (5.7.29)
+ Source Host           : localhost:3306
  Source Schema         : bms_boot
 
  Target Server Type    : MySQL
- Target Server Version : 50650
+ Target Server Version : 50729 (5.7.29)
  File Encoding         : 65001
 
- Date: 24/05/2023 12:53:40
+ Date: 10/07/2023 15:01:20
 */
 
 SET NAMES utf8mb4;
@@ -35,7 +35,7 @@ CREATE TABLE `t_admins`  (
 -- ----------------------------
 -- Records of t_admins
 -- ----------------------------
-INSERT INTO `t_admins` VALUES (1623, 'root', 'da4c189f916ae0b5aeb59389df4f0df0', '小白条', 1, '2023-02-03 19:41:47', '2023-02-03 19:41:47');
+INSERT INTO `t_admins` VALUES (1623, 'root', 'da4c189f916ae0b5aeb59389df4f0df0', '雨伞下的米粒', 1, '2023-02-03 19:41:47', '2023-02-03 19:41:47');
 
 -- ----------------------------
 -- Table structure for t_book_admins
@@ -226,69 +226,28 @@ INSERT INTO `t_comment` VALUES (2, 'https://img0.baidu.com/it/u=825023390,342998
 INSERT INTO `t_comment` VALUES (3, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sanbai', '平凡的生活亦能有非凡的人生', 7, '2023-02-06 19:15:19', '2023-02-06 19:15:19');
 INSERT INTO `t_comment` VALUES (8, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'yiqian', '祝你天天开心', 7, '2023-02-06 21:26:32', '2023-02-06 21:26:32');
 INSERT INTO `t_comment` VALUES (9, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sibai', 'The only way to conquer a fear is to face it', 6, '2023-02-06 21:27:50', '2023-02-06 21:27:50');
-INSERT INTO `t_comment` VALUES (10, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '1', 9, '2023-02-24 23:51:36', '2023-02-24 23:51:36');
 INSERT INTO `t_comment` VALUES (11, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '书籍是人类进步的阶梯', 5, '2023-02-26 12:41:59', '2023-02-26 12:41:59');
 INSERT INTO `t_comment` VALUES (12, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'wubai', '棒！！！', 6, '2023-02-26 16:38:53', '2023-02-26 16:38:53');
-INSERT INTO `t_comment` VALUES (14, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '11111', 9, '2023-03-08 11:18:05', '2023-03-08 11:18:05');
 INSERT INTO `t_comment` VALUES (15, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sibai', 'hahhahhhhhhhhhhhhhhhhh', 8, '2023-03-08 11:18:19', '2023-03-08 11:18:19');
-INSERT INTO `t_comment` VALUES (16, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sibai', 'sdfsd', 7, '2023-03-09 14:57:39', '2023-03-09 14:57:39');
 INSERT INTO `t_comment` VALUES (18, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '大佬加油', 9, '2023-03-10 08:26:39', '2023-03-10 08:26:39');
 INSERT INTO `t_comment` VALUES (19, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '哈哈', 5, '2023-03-10 15:39:45', '2023-03-10 15:39:45');
 INSERT INTO `t_comment` VALUES (20, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'jiubai', '牛啊,兄弟', 8, '2023-03-11 19:10:16', '2023-03-11 19:10:16');
 INSERT INTO `t_comment` VALUES (21, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '加油加油', 5, '2023-03-11 21:17:35', '2023-03-11 21:17:35');
-INSERT INTO `t_comment` VALUES (25, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '湿答答', 7, '2023-03-19 21:03:56', '2023-03-19 21:03:56');
 INSERT INTO `t_comment` VALUES (29, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'yiqian', '我赶个图书管理，来抄一下代码', 7, '2023-03-28 17:50:25', '2023-03-28 17:50:25');
 INSERT INTO `t_comment` VALUES (30, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', 'hello', 7, '2023-03-29 20:16:27', '2023-03-29 20:16:27');
-INSERT INTO `t_comment` VALUES (33, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'wubai', 'wee呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃呃', 9, '2023-04-01 21:31:20', '2023-04-01 21:31:20');
-INSERT INTO `t_comment` VALUES (35, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '576556', 6, '2023-04-02 02:08:18', '2023-04-02 02:08:18');
 INSERT INTO `t_comment` VALUES (47, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '你好', 9, '2023-04-10 14:18:10', '2023-04-10 14:18:10');
 INSERT INTO `t_comment` VALUES (48, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '我们可以的，上', 6, '2023-04-12 20:02:19', '2023-04-12 20:02:19');
-INSERT INTO `t_comment` VALUES (49, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'wubai', '123456', 5, '2023-05-06 17:21:31', '2023-05-06 17:21:31');
 INSERT INTO `t_comment` VALUES (50, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '双方都', 7, '2023-05-07 15:18:24', '2023-05-07 15:18:24');
 INSERT INTO `t_comment` VALUES (51, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '525', 7, '2023-05-08 12:58:24', '2023-05-08 12:58:24');
 INSERT INTO `t_comment` VALUES (52, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '在嘛？', 9, '2023-05-10 08:46:10', '2023-05-10 08:46:10');
-INSERT INTO `t_comment` VALUES (53, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '1111111', 5, '2023-05-10 08:46:23', '2023-05-10 08:46:23');
 INSERT INTO `t_comment` VALUES (54, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '在嘛', 9, '2023-05-10 08:46:37', '2023-05-10 08:46:37');
 INSERT INTO `t_comment` VALUES (55, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '总之结局是好的', 8, '2023-05-10 14:37:24', '2023-05-10 14:37:24');
-INSERT INTO `t_comment` VALUES (56, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', 'JINTIANHAOKUN', 6, '2023-05-12 05:26:46', '2023-05-12 05:26:46');
-INSERT INTO `t_comment` VALUES (57, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '173173173', 5, '2023-05-12 05:27:11', '2023-05-12 05:27:11');
-INSERT INTO `t_comment` VALUES (58, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sibai', '123', 9, '2023-05-12 11:40:23', '2023-05-12 11:40:23');
 INSERT INTO `t_comment` VALUES (59, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '考虑了', 9, '2023-05-13 12:50:29', '2023-05-13 12:50:29');
 INSERT INTO `t_comment` VALUES (60, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'sanbai', '毕业快乐呀', 9, '2023-05-13 14:51:13', '2023-05-13 14:51:13');
 INSERT INTO `t_comment` VALUES (61, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'qibai', '希望图书馆更好', 5, '2023-05-16 13:00:58', '2023-05-16 13:00:58');
-INSERT INTO `t_comment` VALUES (62, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '', 6, '2023-05-16 13:01:18', '2023-05-16 13:01:18');
-INSERT INTO `t_comment` VALUES (63, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'wubai', '生', 9, '2023-05-16 20:41:17', '2023-05-16 20:41:17');
-INSERT INTO `t_comment` VALUES (64, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '哎呀', 8, '2023-05-16 20:41:37', '2023-05-16 20:41:37');
-INSERT INTO `t_comment` VALUES (65, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '11', 9, '2023-05-17 16:09:01', '2023-05-17 16:09:01');
-INSERT INTO `t_comment` VALUES (66, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '撒旦撒', 5, '2023-05-17 16:09:15', '2023-05-17 16:09:15');
-INSERT INTO `t_comment` VALUES (67, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '测试111', 6, '2023-05-17 16:09:23', '2023-05-17 16:09:23');
-INSERT INTO `t_comment` VALUES (68, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'babai', '123', 8, '2023-05-17 16:20:16', '2023-05-17 16:20:16');
-INSERT INTO `t_comment` VALUES (69, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'jiubai', '', 8, '2023-05-17 21:07:29', '2023-05-17 21:07:29');
 INSERT INTO `t_comment` VALUES (70, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'liubai', '你好', 7, '2023-05-19 19:41:40', '2023-05-19 19:41:40');
 INSERT INTO `t_comment` VALUES (71, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'yiqian', '不开心', 5, '2023-05-23 17:48:35', '2023-05-23 17:48:35');
 INSERT INTO `t_comment` VALUES (72, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '不高兴', 7, '2023-05-23 17:48:46', '2023-05-23 17:48:46');
-
--- ----------------------------
--- Table structure for t_notice
--- ----------------------------
-DROP TABLE IF EXISTS `t_notice`;
-CREATE TABLE `t_notice`  (
-  `notice_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '公告表唯一标识',
-  `notice_title` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '公告题目',
-  `notice_content` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '公告内容',
-  `notice_admin_id` int(11) NOT NULL COMMENT '发布公告的管理员id',
-  `create_time` datetime NOT NULL COMMENT '创建时间',
-  `update_time` datetime NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`notice_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 5 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
-
--- ----------------------------
--- Records of t_notice
--- ----------------------------
-INSERT INTO `t_notice` VALUES (1, '本项目前端源代码地址,欢迎star!', 'https://gitee.com/falle22222n-leaves/vue_-book-manage-system', 1623, '2023-02-05 16:11:40', '2023-02-05 16:11:40');
-INSERT INTO `t_notice` VALUES (2, '注意事项', '发现项目BUG,可以提出issue，大佬请别恶意攻击，小项目承受不起，谢谢', 1623, '2023-02-05 16:13:31', '2023-02-05 16:13:31');
-INSERT INTO `t_notice` VALUES (3, '本项目后端源代码地址，欢迎star', 'https://gitee.com/falle22222n-leaves/vue_-book-manage-system_backend', 1623, '2023-02-05 16:13:31', '2023-02-05 16:13:31');
-INSERT INTO `t_notice` VALUES (4, '个人博客地址分享Java学习', 'https://luoye6.github.io/', 1623, '2023-05-01 11:10:44', '2023-05-01 11:10:46');
 
 -- ----------------------------
 -- Table structure for t_users
@@ -304,14 +263,15 @@ CREATE TABLE `t_users`  (
   `status` int(1) NOT NULL COMMENT '1表示可用 0表示禁用',
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `update_time` datetime NOT NULL COMMENT '更新时间',
+  `salt` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`user_id`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 2544 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES (1923, '相思断红肠', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 18012345678, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05');
-INSERT INTO `t_users` VALUES (2543, '落叶者', 'da4c189f916ae0b5aeb59389df4f0df0', '一鲲年', 18068834231, 88, 1, '2023-02-06 16:23:07', '2023-02-06 16:23:07');
+INSERT INTO `t_users` VALUES (1923, '相思断红肠', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 18012345678, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05', '');
+INSERT INTO `t_users` VALUES (2543, '落叶者', 'da4c189f916ae0b5aeb59389df4f0df0', '一鲲年', 18068834231, 88, 1, '2023-02-06 16:23:07', '2023-02-06 16:23:07', '');
 
 -- ----------------------------
 -- Table structure for t_violation
