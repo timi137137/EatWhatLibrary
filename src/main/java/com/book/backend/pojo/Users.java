@@ -3,15 +3,15 @@ package com.book.backend.pojo;
 import com.baomidou.mybatisplus.annotation.*;
 
 import java.io.Serializable;
+import java.util.Date;
 import lombok.Data;
 
 /**
  * @TableName t_users
  */
-@Data
 @TableName(value ="t_users")
+@Data
 public class Users implements Serializable {
-
     /**
      * 用户表的唯一标识
      */
@@ -24,14 +24,9 @@ public class Users implements Serializable {
     private String username;
 
     /**
-     * 密码哈希值
+     * 密码 MD5加密
      */
     private String password;
-
-    /**
-     * 加密盐值
-     */
-    private String salt;
 
     /**
      * 真实姓名
@@ -67,25 +62,4 @@ public class Users implements Serializable {
 
     @TableField(exist = false)
     private static final long serialVersionUID = 1L;
-
-    public String getPassword() {
-        return password;
-    }
-
-    /**
-     * 设置密码并使用 BCryptPasswordEncoder 对其进行加密处理
-     *
-     * @param password 明文密码
-     */
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getSalt() {
-        return salt;
-    }
-
-    public void setSalt(String salt) {
-        this.salt = salt;
-    }
 }
