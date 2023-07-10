@@ -16,8 +16,6 @@ import com.book.backend.pojo.dto.ViolationDTO;
 import com.book.backend.service.BookAdminsService;
 import com.book.backend.service.ViolationService;
 import com.book.backend.utils.JwtKit;
-import org.apache.shiro.crypto.hash.SimpleHash;
-import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
@@ -38,7 +36,6 @@ public class BookAdminsServiceImpl extends ServiceImpl<BookAdminsMapper, BookAdm
      * 盐值，混淆密码
      */
     private static final String SALT = "yusanxiademil";
-
     @Resource
     private JwtKit jwtKit;
 
@@ -55,9 +52,10 @@ public class BookAdminsServiceImpl extends ServiceImpl<BookAdminsMapper, BookAdm
      */
     @Override
     public R<String> addBookAdmin(BookAdmins bookAdmins) {
+
         // 获取未加密的密码
         String password = SALT + bookAdmins.getPassword();
-        String md5Password = new SimpleHash("md5", password, ByteSource.Util.bytes(SALT), 2).toHex();
+        String md5Password = DigestUtils.md5DigestAsHex(password.getBytes());
         bookAdmins.setPassword(md5Password);
         bookAdmins.setStatus(Constant.AVAILABLE);
         boolean save = this.save(bookAdmins);
@@ -76,6 +74,7 @@ public class BookAdminsServiceImpl extends ServiceImpl<BookAdminsMapper, BookAdm
      */
     @Override
     public R login(BookAdmins users) {
+
         R result = new R<>();
         // 检查用户名是否为空或null等情况
         if (StringUtils.isBlank(users.getUsername())) {
@@ -94,10 +93,8 @@ public class BookAdminsServiceImpl extends ServiceImpl<BookAdminsMapper, BookAdm
         if (Constant.DISABLE.equals(bookAdminOne.getStatus())) {
             return R.error("该图书管理员已被禁用");
         }
-        // 密码校验
-        String password = SALT + users.getPassword();
-        String md5Password = new SimpleHash("md5", password, ByteSource.Util.bytes(SALT), 2).toHex();
-        if (!md5Password.equals(bookAdminOne.getPassword())) {
+        String password = users.getPassword();
+        if (!password.equals(bookAdminOne.getPassword())) {
             result.setStatus(404);
             return R.error("用户名或密码错误");
         }
