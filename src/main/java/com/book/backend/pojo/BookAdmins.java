@@ -24,19 +24,14 @@ public class BookAdmins implements Serializable {
     private String username;
 
     /**
-     * 密码哈希值
+     * 密码md5加密
      */
     private String password;
 
     /**
-     * 加密盐值
-     */
-    private String salt;
-
-    /**
      * 图书管理员真实姓名
      */
-    private String cardName;
+    private String bookAdminName;
 
     /**
      * 1表示可用 0表示禁用
