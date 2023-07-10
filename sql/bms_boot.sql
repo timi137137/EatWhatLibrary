@@ -11,7 +11,7 @@
  Target Server Version : 50729 (5.7.29)
  File Encoding         : 65001
 
- Date: 10/07/2023 15:01:20
+ Date: 10/07/2023 19:28:14
 */
 
 SET NAMES utf8mb4;
@@ -58,7 +58,7 @@ CREATE TABLE `t_book_admins`  (
 -- ----------------------------
 INSERT INTO `t_book_admins` VALUES (1546, 'admin1', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 1, '229@qq.com', '2023-05-13 14:50:06', '2023-05-13 14:50:06');
 INSERT INTO `t_book_admins` VALUES (1547, '123456', 'da4c189f916ae0b5aeb59389df4f0df0', 'test', 1, '', '2023-05-15 09:10:13', '2023-05-15 09:10:13');
-INSERT INTO `t_book_admins` VALUES (1549, 'admin', 'da4c189f916ae0b5aeb59389df4f0df0', '随性', 1, '2246317529@qq.com', '2023-05-17 14:22:28', '2023-05-17 14:22:28');
+INSERT INTO `t_book_admins` VALUES (1549, 'admin', 'da4c189f916ae0b5aeb59389df4f0df0', '布罗艾', 1, '1477161018@qq.com', '2023-05-17 14:22:28', '2023-05-17 14:22:28');
 
 -- ----------------------------
 -- Table structure for t_book_rule
@@ -177,7 +177,7 @@ CREATE TABLE `t_books_borrow`  (
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`borrow_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 49 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 52 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_books_borrow
@@ -202,6 +202,9 @@ INSERT INTO `t_books_borrow` VALUES (45, 18012345678, 9378134736, '2023-05-20 14
 INSERT INTO `t_books_borrow` VALUES (46, 18012345678, 1235, '2023-05-20 14:22:01', '2023-07-09 14:22:01', NULL, '2023-05-20 14:22:03', '2023-05-20 14:22:03');
 INSERT INTO `t_books_borrow` VALUES (47, 18012345678, 1236, '2023-05-20 14:22:07', '2023-07-09 14:22:07', NULL, '2023-05-20 14:22:08', '2023-05-20 14:22:08');
 INSERT INTO `t_books_borrow` VALUES (48, 18012345678, 1237, '2023-05-20 14:22:12', '2023-07-09 14:22:12', NULL, '2023-05-20 14:22:13', '2023-05-20 14:22:13');
+INSERT INTO `t_books_borrow` VALUES (49, 18012345678, 50970375442, '2023-07-10 19:20:46', '2023-08-09 19:20:46', NULL, '2023-07-10 19:20:46', '2023-07-10 19:20:46');
+INSERT INTO `t_books_borrow` VALUES (50, 18012345678, 50970375442, '2023-07-10 19:21:40', '2023-08-09 19:21:40', NULL, '2023-07-10 19:21:40', '2023-07-10 19:21:40');
+INSERT INTO `t_books_borrow` VALUES (51, 18012345678, 50970375442, '2023-07-10 19:27:51', '2023-08-09 19:27:51', NULL, '2023-07-10 19:27:50', '2023-07-10 19:27:50');
 
 -- ----------------------------
 -- Table structure for t_comment
@@ -250,6 +253,25 @@ INSERT INTO `t_comment` VALUES (71, 'https://img0.baidu.com/it/u=825023390,34299
 INSERT INTO `t_comment` VALUES (72, 'https://img0.baidu.com/it/u=825023390,3429989944&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500', 'erbai', '不高兴', 7, '2023-05-23 17:48:46', '2023-05-23 17:48:46');
 
 -- ----------------------------
+-- Table structure for t_notice
+-- ----------------------------
+DROP TABLE IF EXISTS `t_notice`;
+CREATE TABLE `t_notice`  (
+  `notice_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '公告表唯一标识',
+  `notice_title` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '公告题目',
+  `notice_content` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '公告内容',
+  `notice_admin_id` int(11) NOT NULL COMMENT '发布公告的管理员id',
+  `create_time` datetime NOT NULL COMMENT '创建时间',
+  `update_time` datetime NOT NULL COMMENT '更新时间',
+  PRIMARY KEY (`notice_id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 4 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+
+-- ----------------------------
+-- Records of t_notice
+-- ----------------------------
+INSERT INTO `t_notice` VALUES (1, '这是一条公告', '公告测试', 1623, '2023-07-10 19:27:23', '2023-07-10 19:27:26');
+
+-- ----------------------------
 -- Table structure for t_users
 -- ----------------------------
 DROP TABLE IF EXISTS `t_users`;
@@ -270,7 +292,7 @@ CREATE TABLE `t_users`  (
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES (1923, '相思断红肠', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 18012345678, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05', '');
+INSERT INTO `t_users` VALUES (1923, '雨伞下的米粒', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 18012345678, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05', '');
 INSERT INTO `t_users` VALUES (2543, '落叶者', 'da4c189f916ae0b5aeb59389df4f0df0', '一鲲年', 18068834231, 88, 1, '2023-02-06 16:23:07', '2023-02-06 16:23:07', '');
 
 -- ----------------------------
