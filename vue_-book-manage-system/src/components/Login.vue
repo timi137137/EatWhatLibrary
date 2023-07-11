@@ -93,7 +93,7 @@ export default {
         }
         this.loginLoading = true;
         // 进行md5加密
-        const salt = "xiaobaitiao";
+        const salt = "yusanxiademil";
         const username = this.loginForm.username;
         const password = CryptoJS.MD5(salt + this.loginForm.password).toString();
         //向数据库发送axios请求，如果登录成功，就跳转

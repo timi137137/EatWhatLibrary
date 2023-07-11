@@ -121,7 +121,7 @@ export default {
         }
         this.loginLoading = true;
         // 进行md5加密
-        const salt = "xiaobaitiao";
+        const salt = "yusanxiademil";
         const username = this.loginForm.username;
         const password = CryptoJS.MD5(
           salt + this.loginForm.password
