@@ -11,7 +11,7 @@
  Target Server Version : 50729 (5.7.29)
  File Encoding         : 65001
 
- Date: 10/07/2023 19:28:14
+ Date: 10/07/2023 23:42:04
 */
 
 SET NAMES utf8mb4;
@@ -177,7 +177,7 @@ CREATE TABLE `t_books_borrow`  (
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`borrow_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 52 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_books_borrow
@@ -205,6 +205,7 @@ INSERT INTO `t_books_borrow` VALUES (48, 18012345678, 1237, '2023-05-20 14:22:12
 INSERT INTO `t_books_borrow` VALUES (49, 18012345678, 50970375442, '2023-07-10 19:20:46', '2023-08-09 19:20:46', NULL, '2023-07-10 19:20:46', '2023-07-10 19:20:46');
 INSERT INTO `t_books_borrow` VALUES (50, 18012345678, 50970375442, '2023-07-10 19:21:40', '2023-08-09 19:21:40', NULL, '2023-07-10 19:21:40', '2023-07-10 19:21:40');
 INSERT INTO `t_books_borrow` VALUES (51, 18012345678, 50970375442, '2023-07-10 19:27:51', '2023-08-09 19:27:51', NULL, '2023-07-10 19:27:50', '2023-07-10 19:27:50');
+INSERT INTO `t_books_borrow` VALUES (52, 18012345678, 50970375442, '2023-07-10 19:28:59', '2023-08-09 19:28:59', NULL, '2023-07-10 19:28:58', '2023-07-10 19:28:58');
 
 -- ----------------------------
 -- Table structure for t_comment

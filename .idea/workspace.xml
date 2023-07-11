@@ -5,82 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4707512-bc1e-4532-ba9d-cd61c36e0595" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/jsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/public/digitalCityMin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/public/小恐龙.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/css/global.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/demo_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/fonts/iconfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/QQ图片20221211194145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/images/banner9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/404/404.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/AdminManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/BookAdminManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/BookManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/BookType.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/HomeAdmin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/LoginAdmin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/StatementManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/StatementRuleManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Admin/StatementSearch.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Book/Search.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/BookExpire.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/BorrowBook.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/BorrowStatement.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/LoginBookManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/NoticeManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/ReturnBook.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/BookManage/ReturnStatement.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Chart/ChartLint.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Chart/PieChart.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Home/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Home/HomeManage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Index/Index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Swiper/image/book1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Swiper/image/book2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Swiper/image/book3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Swiper/swiper.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Borrow.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Comment.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Information.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Notice.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Rule.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/User/Violation.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/components/Utils/htmlToPdf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/main-dev.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/main-prod.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/plugins/element.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/src/router/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/vue.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/vue_-book-manage-system.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-end for testing/vue_-book-manage-system/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/bms_boot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/bms_boot.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/library",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/library&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
