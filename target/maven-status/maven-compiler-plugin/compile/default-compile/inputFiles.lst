@@ -6,8 +6,6 @@ D:\library\EatWhatLibrary\src\main\java\com\book\backend\common\JwtProperties.ja
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\interceptor\AuthInterceptorHandler.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\dto\BookRuleDTO.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\utils\Utility.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\mapper\BookAdminsMapper.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\controller\bookadmin\BookAdminLoginController.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\dto\UsersDTO.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\BooksServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\mapper\UsersMapper.java
@@ -36,7 +34,6 @@ D:\library\EatWhatLibrary\src\main\java\com\book\backend\utils\BorrowDateUtil.ja
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\BooksService.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\UsersService.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\controller\user\UserFunctionController.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\BookAdminsServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\CommentServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\common\R.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\Violation.java
@@ -53,9 +50,7 @@ D:\library\EatWhatLibrary\src\main\java\com\book\backend\utils\SqlUtils.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\mapper\NoticeMapper.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\common\BasePage.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\mapper\CommentMapper.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\BookAdmins.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\common\exception\CommonError.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\controller\bookadmin\BookAdminFunctionController.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\BookRule.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\UsersServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\utils\SpringBootUtil.java
@@ -65,7 +60,6 @@ D:\library\EatWhatLibrary\src\main\java\com\book\backend\mapper\BooksBorrowMappe
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\ViolationServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\BookRuleServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\BookTypeService.java
-D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\BookAdminsService.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\NoticeServiceImpl.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\pojo\dto\BookDTO.java
 D:\library\EatWhatLibrary\src\main\java\com\book\backend\service\impl\BookTypeServiceImpl.java

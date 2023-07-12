@@ -25,8 +25,6 @@ class VueBookBackendApplicationTests {
     @Autowired
     private AdminsService adminsService;
     @Autowired
-    private BookAdminsService bookAdminsService;
-    @Autowired
     private ViolationService violationService;
     @Autowired
     private JwtKit jwtKit;
@@ -39,10 +37,6 @@ class VueBookBackendApplicationTests {
     public void getAdmins(){
         List<Admins> list = adminsService.list();
         list.forEach(System.out::println);
-    }
-    @Test
-    public void getBookAdmins(){
-        bookAdminsService.list().forEach(System.out::println);
     }
     @Test
     public void tokenUse(){

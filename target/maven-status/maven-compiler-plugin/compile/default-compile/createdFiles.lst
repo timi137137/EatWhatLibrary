@@ -7,17 +7,13 @@ com\book\backend\pojo\dto\CommentDTO.class
 com\book\backend\mapper\BookTypeMapper.class
 com\book\backend\service\BookTypeService.class
 com\book\backend\controller\admin\AdminLoginController.class
-com\book\backend\mapper\BookAdminsMapper.class
 com\book\backend\pojo\Violation.class
 com\book\backend\service\impl\NoticeServiceImpl.class
 com\book\backend\service\impl\AdminsServiceImpl.class
 com\book\backend\pojo\dto\BookDTO.class
 com\book\backend\service\impl\BookTypeServiceImpl.class
 com\book\backend\utils\NetUtils.class
-com\book\backend\controller\bookadmin\BookAdminFunctionController.class
 com\book\backend\utils\Utility.class
-com\book\backend\pojo\BookAdmins.class
-com\book\backend\service\BookAdminsService.class
 com\book\backend\service\BookRuleService.class
 com\book\backend\common\R.class
 com\book\backend\common\CustomException.class
@@ -41,7 +37,6 @@ com\book\backend\utils\JwtKit.class
 com\book\backend\utils\SqlUtils.class
 com\book\backend\service\BooksBorrowService.class
 com\book\backend\mapper\BooksBorrowMapper.class
-com\book\backend\controller\bookadmin\BookAdminLoginController.class
 com\book\backend\common\BaseContext.class
 com\book\backend\mapper\BookRuleMapper.class
 com\book\backend\utils\BorrowDateUtil.class
@@ -74,5 +69,4 @@ com\book\backend\common\exception\GlobalExceptionHandler.class
 com\book\backend\mapper\AdminsMapper.class
 com\book\backend\mapper\ViolationMapper.class
 com\book\backend\service\impl\CommentServiceImpl.class
-com\book\backend\service\impl\BookAdminsServiceImpl.class
 com\book\backend\mapper\CommentMapper.class
