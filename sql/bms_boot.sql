@@ -11,7 +11,7 @@
  Target Server Version : 50729 (5.7.29)
  File Encoding         : 65001
 
- Date: 10/07/2023 23:42:04
+ Date: 12/07/2023 20:55:21
 */
 
 SET NAMES utf8mb4;
@@ -35,30 +35,7 @@ CREATE TABLE `t_admins`  (
 -- ----------------------------
 -- Records of t_admins
 -- ----------------------------
-INSERT INTO `t_admins` VALUES (1623, 'root', 'da4c189f916ae0b5aeb59389df4f0df0', '雨伞下的米粒', 1, '2023-02-03 19:41:47', '2023-02-03 19:41:47');
-
--- ----------------------------
--- Table structure for t_book_admins
--- ----------------------------
-DROP TABLE IF EXISTS `t_book_admins`;
-CREATE TABLE `t_book_admins`  (
-  `book_admin_id` int(11) NOT NULL AUTO_INCREMENT COMMENT '图书管理员表的唯一标识',
-  `username` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '用户名',
-  `password` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '密码md5加密',
-  `book_admin_name` varchar(10) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '图书管理员真实姓名',
-  `status` int(1) NOT NULL COMMENT '1表示可用 0表示禁用',
-  `email` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL COMMENT '电子邮箱',
-  `create_time` datetime NOT NULL COMMENT '创建时间',
-  `update_time` datetime NOT NULL COMMENT '更新时间',
-  PRIMARY KEY (`book_admin_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 1550 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
-
--- ----------------------------
--- Records of t_book_admins
--- ----------------------------
-INSERT INTO `t_book_admins` VALUES (1546, 'admin1', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 1, '229@qq.com', '2023-05-13 14:50:06', '2023-05-13 14:50:06');
-INSERT INTO `t_book_admins` VALUES (1547, '123456', 'da4c189f916ae0b5aeb59389df4f0df0', 'test', 1, '', '2023-05-15 09:10:13', '2023-05-15 09:10:13');
-INSERT INTO `t_book_admins` VALUES (1549, 'admin', 'da4c189f916ae0b5aeb59389df4f0df0', '布罗艾', 1, '1477161018@qq.com', '2023-05-17 14:22:28', '2023-05-17 14:22:28');
+INSERT INTO `t_admins` VALUES (1623, 'admin', 'abc123', '米粒', 1, '2023-02-03 19:41:47', '2023-02-03 19:41:47');
 
 -- ----------------------------
 -- Table structure for t_book_rule
@@ -127,7 +104,7 @@ CREATE TABLE `t_books`  (
 -- ----------------------------
 -- Records of t_books
 -- ----------------------------
-INSERT INTO `t_books` VALUES (1, 1234, '红楼梦', '曹雪芹', '南图', '小说', 'E1', '已借出', '《红楼梦》，原名《石头记》，中国古代章回体长篇小说，中国古典四大名著之一。', '2023-02-04 17:51:04', '2023-02-04 17:51:04');
+INSERT INTO `t_books` VALUES (1, 1234, '红楼梦', '曹雪芹', '教师之家', '小说', 'E1', '已借出', '《红楼梦》，原名《石头记》，中国古代章回体长篇小说，中国古典四大名著之一。', '2023-02-04 17:51:04', '2023-02-04 17:51:04');
 INSERT INTO `t_books` VALUES (2, 1235, '百年孤独', '加西亚·马尔克斯', '北图', '小说', 'E2', '已借出', '《百年孤独》，是哥伦比亚作家加西亚·马尔克斯创作的长篇小说，是其代表作，也是拉丁美洲魔幻现实主义文学的代表作，被誉为“再现拉丁美洲历史社会图景的鸿篇巨著”。', '2023-02-04 17:53:27', '2023-02-04 17:53:27');
 INSERT INTO `t_books` VALUES (3, 1236, '三体', '刘慈欣', '教师之家', '小说', 'F8', '已借出', '科幻小说，全名《地球往事三部曲》，是刘慈欣编写的史诗级巨作，是一部典型的硬科幻作品。', '2023-02-04 17:53:27', '2023-02-04 17:53:27');
 INSERT INTO `t_books` VALUES (4, 1237, '战争与和平', '列夫·尼古拉耶维奇·托尔斯泰', '南图', '小说', 'A3', '已借出', '该作以1812年的卫国战争为中心，反映从1805到1820年间的重大历史事件。以鲍尔康斯、别祖霍夫、罗斯托夫和库拉金四大贵族的经历为主线，在战争与和平的交替描写中把众多的事件和人物串联起来', '2023-02-10 17:00:48', '2023-02-10 17:00:48');
@@ -177,7 +154,7 @@ CREATE TABLE `t_books_borrow`  (
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `update_time` datetime NOT NULL COMMENT '更新时间',
   PRIMARY KEY (`borrow_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 53 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 54 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_books_borrow
@@ -206,6 +183,7 @@ INSERT INTO `t_books_borrow` VALUES (49, 18012345678, 50970375442, '2023-07-10 1
 INSERT INTO `t_books_borrow` VALUES (50, 18012345678, 50970375442, '2023-07-10 19:21:40', '2023-08-09 19:21:40', NULL, '2023-07-10 19:21:40', '2023-07-10 19:21:40');
 INSERT INTO `t_books_borrow` VALUES (51, 18012345678, 50970375442, '2023-07-10 19:27:51', '2023-08-09 19:27:51', NULL, '2023-07-10 19:27:50', '2023-07-10 19:27:50');
 INSERT INTO `t_books_borrow` VALUES (52, 18012345678, 50970375442, '2023-07-10 19:28:59', '2023-08-09 19:28:59', NULL, '2023-07-10 19:28:58', '2023-07-10 19:28:58');
+INSERT INTO `t_books_borrow` VALUES (53, 18012345678, 50970375442, '2023-07-12 14:37:06', '2023-08-11 14:37:06', NULL, '2023-07-12 14:37:05', '2023-07-12 14:37:05');
 
 -- ----------------------------
 -- Table structure for t_comment
@@ -286,15 +264,14 @@ CREATE TABLE `t_users`  (
   `status` int(1) NOT NULL COMMENT '1表示可用 0表示禁用',
   `create_time` datetime NOT NULL COMMENT '创建时间',
   `update_time` datetime NOT NULL COMMENT '更新时间',
-  `salt` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   PRIMARY KEY (`user_id`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 2544 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
+) ENGINE = InnoDB AUTO_INCREMENT = 2545 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES (1923, '雨伞下的米粒', 'da4c189f916ae0b5aeb59389df4f0df0', '张三', 18012345678, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05', '');
-INSERT INTO `t_users` VALUES (2543, '落叶者', 'da4c189f916ae0b5aeb59389df4f0df0', '一鲲年', 18068834231, 88, 1, '2023-02-06 16:23:07', '2023-02-06 16:23:07', '');
+INSERT INTO `t_users` VALUES (1923, '雨伞下的米粒', '123456', '布罗艾', 18068834231, 188, 1, '2023-02-02 16:12:05', '2023-02-02 16:12:05');
+INSERT INTO `t_users` VALUES (2543, '鲨狗不傻', '123456', '张三', 18068834231, 88, 1, '2023-02-06 16:23:07', '2023-02-06 16:23:07');
 
 -- ----------------------------
 -- Table structure for t_violation
