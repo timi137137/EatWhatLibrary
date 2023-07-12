@@ -1,8 +1,9 @@
 package com.book.backend.common.exception;
 
+import io.swagger.annotations.ApiModelProperty;
+
 /**
  * 自定义错误码
- *
  */
 public enum ErrorCode {
 
@@ -15,14 +16,10 @@ public enum ErrorCode {
     SYSTEM_ERROR(50000, "系统内部异常"),
     OPERATION_ERROR(50001, "操作失败");
 
-    /**
-     * 状态码
-     */
+    @ApiModelProperty(value = "状态码")
     private final int code;
 
-    /**
-     * 信息
-     */
+    @ApiModelProperty(value = "信息")
     private final String message;
 
     ErrorCode(int code, String message) {

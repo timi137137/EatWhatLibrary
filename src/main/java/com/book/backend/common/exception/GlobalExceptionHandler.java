@@ -15,12 +15,4 @@ public class GlobalExceptionHandler {
     public R businessExceptionHandler(VueBookException e) {
         return R.error(e.getErrMessage(),e.getCode());
     }
-
-//    @ResponseBody
-//    @ExceptionHandler(Exception.class)
-//    @ResponseStatus(HttpStatus.OK)
-//    public R runtimeExceptionHandler(Exception e) {
-//        return R.error(CommonError.UNKOWN_ERROR.getErrMessage());
-//
-//    }
 }

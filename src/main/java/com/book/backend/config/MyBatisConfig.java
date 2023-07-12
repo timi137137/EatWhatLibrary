@@ -16,8 +16,4 @@ public class MyBatisConfig {
         mybatisPlusInterceptor.addInnerInterceptor(new PaginationInnerInterceptor());
         return mybatisPlusInterceptor;
     }
-//    @Bean
-//    public StrategyConfig strategyConfig(){
-//        return new StrategyConfig.Builder().entityBuilder().enableTableFieldAnnotation().build();
-//    }
 }

@@ -1,15 +1,14 @@
 package com.book.backend.pojo.dto;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
 public class BorrowTypeDTO {
-    /**
-     * 图书分类
-     */
+
+    @ApiModelProperty(value = "图书分类")
     public String bookTypes;
-    /**
-     * 借阅量
-     */
+
+    @ApiModelProperty(value = "借阅量")
     public Integer  borrowNumbers;
 }

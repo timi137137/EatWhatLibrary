@@ -6,8 +6,61 @@
   <component name="ChangeListManager">
     <list default="true" id="e4707512-bc1e-4532-ba9d-cd61c36e0595" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/bms_boot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/bms_boot.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BaseContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/JwtProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/MyMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/VueBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/VueBookException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminFunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminFunctionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/bookadmin/BookAdminFunctionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/bookadmin/BookAdminLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserFunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserFunctionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/mapper/BookAdminsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Admins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Admins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookAdmins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BooksBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BooksBorrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Notice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Violation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Violation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BookDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BooksBorrowDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BooksBorrowDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowTypeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/ViolationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/ViolationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/AdminsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/AdminsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/BookAdminsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/AdminsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/AdminsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/BookAdminsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/UsersServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/ViolationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/ViolationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookAdminsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/book/backend/VueBookBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/book/backend/VueBookBackendApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookAdminsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dev.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/dev.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.CrawlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.CrawlerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendUserTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.CrawlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.CrawlerTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendApplicationTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendUserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendUserTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/jsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +69,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,5 +112,41 @@
     <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
     <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
     <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="79ab336a-a170-4a91-ade2-bde335eb4491">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/library/EatWhatLibrary/vue_-book-manage-system" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="79ab336a-a170-4a91-ade2-bde335eb4491" value="TOOL_WINDOW" />
+      </map>
+    </option>
   </component>
 </project>

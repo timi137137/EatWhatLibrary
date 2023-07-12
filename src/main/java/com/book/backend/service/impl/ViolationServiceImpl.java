@@ -8,18 +8,17 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.book.backend.common.BasePage;
 import com.book.backend.common.R;
 import com.book.backend.mapper.ViolationMapper;
-import com.book.backend.pojo.BookAdmins;
+import com.book.backend.pojo.Admins;
 import com.book.backend.pojo.Violation;
 import com.book.backend.pojo.dto.BorrowData;
 import com.book.backend.pojo.dto.ViolationDTO;
-import com.book.backend.service.BookAdminsService;
 import com.book.backend.service.ViolationService;
 import com.book.backend.utils.BorrowDateUtil;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
-
+import com.book.backend.service.AdminsService;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -30,11 +29,11 @@ import java.util.stream.Collectors;
 @Service
 public class ViolationServiceImpl extends ServiceImpl<ViolationMapper, Violation>
         implements ViolationService {
-    private BookAdminsService bookAdminsService;
+    private AdminsService AdminsService;
 
     @Autowired
-    public ViolationServiceImpl(@Lazy BookAdminsService bookAdminsService) {
-        this.bookAdminsService = bookAdminsService;
+    public ViolationServiceImpl(@Lazy AdminsService AdminsService) {
+        this.AdminsService = AdminsService;
     }
 
     /**
@@ -86,12 +85,12 @@ public class ViolationServiceImpl extends ServiceImpl<ViolationMapper, Violation
                 // 获取图书管理员的id
                 Integer violationAdminId = item.getViolationAdminId();
                 // 根据id去查询用户名
-                LambdaQueryWrapper<BookAdmins> queryWrapper2 = new LambdaQueryWrapper<>();
-                queryWrapper2.eq(BookAdmins::getBookAdminId, violationAdminId);
-                BookAdmins bookAdmins = bookAdminsService.getOne(queryWrapper2);
-                if (bookAdmins != null) {
+                LambdaQueryWrapper<Admins> queryWrapper2 = new LambdaQueryWrapper<>();
+                queryWrapper2.eq(Admins::getAdminId, violationAdminId);
+                Admins Admins = AdminsService.getOne(queryWrapper2);
+                if (Admins != null) {
                     // 获取用户名
-                    String username = bookAdmins.getUsername();
+                    String username = Admins.getUsername();
                     violationDTO.setViolationAdmin(username);
                 }
                 return violationDTO;
@@ -116,12 +115,12 @@ public class ViolationServiceImpl extends ServiceImpl<ViolationMapper, Violation
             // 获取图书管理员的id
             Integer violationAdminId = item.getViolationAdminId();
             // 根据id获取用户名
-            LambdaQueryWrapper<BookAdmins> queryWrapper3 = new LambdaQueryWrapper<>();
-            queryWrapper3.eq(BookAdmins::getBookAdminId, violationAdminId);
-            BookAdmins bookAdmins2 = bookAdminsService.getOne(queryWrapper3);
-            if (bookAdmins2 != null) {
+            LambdaQueryWrapper<Admins> queryWrapper3 = new LambdaQueryWrapper<>();
+            queryWrapper3.eq(Admins::getAdminId, violationAdminId);
+            Admins Admins2 = AdminsService.getOne(queryWrapper3);
+            if (Admins2 != null) {
                 // 获取用户名
-                String username = bookAdmins2.getUsername();
+                String username = Admins2.getUsername();
                 violationDTO2.setViolationAdmin(username);
             }
             return violationDTO2;

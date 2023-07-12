@@ -1,15 +1,15 @@
 package com.book.backend.common.exception;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class VueBookException extends RuntimeException{
 
     private static final long serialVersionUID = 5565760508056698922L;
-    /**
-     * 错误信息
-     */
+
+    @ApiModelProperty(value = "错误信息")
     private  String errMessage;
-    /**
-     * 错误码
-     */
+
+    @ApiModelProperty(value = "错误码")
     private  int code;
     public VueBookException() {
         super();

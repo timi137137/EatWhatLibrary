@@ -3,6 +3,7 @@ package com.book.backend.controller.user;
 import com.book.backend.common.R;
 import com.book.backend.pojo.Users;
 import com.book.backend.service.UsersService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -22,6 +23,7 @@ public class UserLoginController {
      * @param users 借阅者用户
      * @return 返回R通用数据
      */
+    @ApiOperation("借阅用户登录")
     @PostMapping("/login")
     public R login(@RequestBody Users users) {
         return usersService.login(users);
@@ -33,6 +35,7 @@ public class UserLoginController {
      * @param users 用户
      * @return R<Users>
      */
+    @ApiOperation("返回用户数据")
     @PostMapping("/getData")
     public R<Users> getUserData(@RequestBody Users users) {
         return usersService.getUserData(users);

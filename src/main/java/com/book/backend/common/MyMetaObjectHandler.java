@@ -22,10 +22,6 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
      */
     @Override
     public void insertFill(MetaObject metaObject) {
-
-//        metaObject.setValue("createTime", LocalDateTime.now());
-//        metaObject.setValue("updateTime",LocalDateTime.now());
-        // MyBatisPlus3.3.0版本后推荐使用strictInsertFill，当字段值为null时，不进行填充
         this.strictInsertFill(metaObject,"createTime",String.class,
                 LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
         this.strictInsertFill(metaObject,"updateTime",String.class,
@@ -38,8 +34,6 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
      */
     @Override
     public void updateFill(MetaObject metaObject) {
-        // MyBatisPlus3.3.0版本后推荐使用strictUpdateFill，当字段值为null时，不进行更新
-//        metaObject.setValue("updateTime",LocalDateTime.now());
         this.strictUpdateFill(metaObject,"updateTime",
                 String.class,LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
     }

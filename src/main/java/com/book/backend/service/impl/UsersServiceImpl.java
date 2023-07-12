@@ -241,20 +241,14 @@ public class UsersServiceImpl extends ServiceImpl<UsersMapper, Users>
     @Override
     public R<String> updateStatement(UsersDTO usersDTO) {
         Users users = new Users();
-        BeanUtils.copyProperties(usersDTO, users, "password", "userStatus");
+        BeanUtils.copyProperties(usersDTO, users, "userStatus");
         String userStatus = usersDTO.getUserStatus();
         if (Constant.USERAVAILABLE.equals(userStatus)) {
             users.setStatus(1);
         } else {
             users.setStatus(0);
         }
-        String password = usersDTO.getPassword();
-        if (password.length() >= Constant.MD5PASSWORD) {
-            users.setPassword(password);
-        } else {
-            String md5Password = DigestUtils.md5DigestAsHex(password.getBytes());
-            users.setPassword(md5Password);
-        }
+        users.setPassword(usersDTO.getPassword());
 
         boolean update = this.updateById(users);
         if (!update) {

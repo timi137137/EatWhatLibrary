@@ -1,5 +1,6 @@
 package com.book.backend.common;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 import java.util.HashMap;
@@ -23,20 +24,16 @@ public class R<T> {
      * | 422  | Unprocesable entity   | [POST/PUT/PATCH] 当创建一个对象时，发生一个验证错误
      * | 500  | INTERNAL SERVER ERROR | 内部错误
      */
+    @ApiModelProperty(value = "响应状态码")
     private Integer status;
-    /**
-     * 返回给前端的自定义信息
-     */
+
+    @ApiModelProperty(value = "返回给前端的自定义信息")
     private String msg;
 
-    /**
-     * 前端发送请求所需要接受到的真实数据
-     */
+    @ApiModelProperty(value = "前端发送请求所需要接受到的真实数据")
     private T data;
 
-    /**
-     * 动态数据
-     */
+    @ApiModelProperty(value = "动态数据")
     private HashMap<String,Object> map = new HashMap<>();
 
     public static <T> R<T> success(T object,String message) {

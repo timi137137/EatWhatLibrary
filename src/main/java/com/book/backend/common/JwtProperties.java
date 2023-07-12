@@ -1,5 +1,6 @@
 package com.book.backend.common;
 
+import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -10,28 +11,24 @@ import org.springframework.stereotype.Component;
 @Component
 @Data
 public class JwtProperties {
-    /**
-     * JWT存储的请求头
-     */
+
+    @ApiModelProperty(value = "JWT存储的请求头")
     @Value("${jwt.tokenHeader}")
     private String tokenHeader;
-    /**
-     * jwt加解密使用的密钥
-     */
+
+    @ApiModelProperty(value = "jwt加解密使用的密钥")
     @Value("${jwt.secret}")
     private String secret;
-    /**
-     * JWT的超时时间
-     */
+
+    @ApiModelProperty(value = "JWT的超时时间")
     @Value("${jwt.expiration}")
     private long expiration;
 
     public JwtProperties() {
     }
 
-    /**
-     * JWT负载中拿到的开头
-     */
+
+    @ApiModelProperty(value = "JWT负载中拿到的开头")
     @Value("${jwt.tokenHead}")
     private String tokenHead;
 

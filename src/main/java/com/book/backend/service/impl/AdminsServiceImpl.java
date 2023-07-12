@@ -12,6 +12,7 @@ import com.book.backend.pojo.Users;
 import com.book.backend.pojo.dto.UsersDTO;
 import com.book.backend.service.AdminsService;
 import com.book.backend.service.UsersService;
+import com.book.backend.service.ViolationService;
 import com.book.backend.utils.JwtKit;
 import com.book.backend.utils.NumberUtil;
 import com.book.backend.utils.RandomNameUtils;
@@ -28,18 +29,17 @@ import javax.annotation.Resource;
 public class AdminsServiceImpl extends ServiceImpl<AdminsMapper, Admins>
         implements AdminsService {
 
-    /**
-     * 盐值，混淆密码
-     */
-    private static final String SALT = "xiaobaitiao";
     @Resource
     private UsersService usersService;
+
     @Resource
     private JwtKit jwtKit;
+
+    private ViolationService violationService;
     /**
      * 1.接受请求发送的用户名，密码，规则编号，用户状态
      * 2.根据用户状态可用/禁用 去设置1和0
-     * 3.用户id自增设为null,密码需要md5加密,随机生成card_name姓名
+     * 3.用户id自增设为null,获取密码,随机生成card_name姓名
      * 4.工具类随机生成11位借阅证编号
      * 5.调用服务插入用户，判断是否成功
      */
@@ -47,7 +47,7 @@ public class AdminsServiceImpl extends ServiceImpl<AdminsMapper, Admins>
     public R<String> addRule(UsersDTO usersDTO) {
 
         // 密码
-        String password = SALT + usersDTO.getPassword();
+        String password = usersDTO.getPassword();
         // 用户状态
         String userStatus = usersDTO.getUserStatus();
         int status = 0;
@@ -56,11 +56,10 @@ public class AdminsServiceImpl extends ServiceImpl<AdminsMapper, Admins>
         }
         Users users = new Users();
         BeanUtils.copyProperties(usersDTO, users, "userStatus");
-        String md5Password = DigestUtils.md5DigestAsHex(password.getBytes());
         users.setStatus(status);
         users.setCardName(RandomNameUtils.fullName());
         // 密码加密
-        users.setPassword(md5Password);
+        users.setPassword(password);
         long cardNumber = Long.parseLong(new String(NumberUtil.getNumber(11)));
         users.setCardNumber(cardNumber);
         boolean save = usersService.save(users);
