@@ -5,62 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4707512-bc1e-4532-ba9d-cd61c36e0595" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BaseContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BaseContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/JwtProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/JwtProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/MyMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/MyMetaObjectHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/ErrorCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/VueBookException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/common/exception/VueBookException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminFunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminFunctionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/admin/AdminLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/bookadmin/BookAdminFunctionController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/bookadmin/BookAdminLoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserFunctionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserFunctionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/controller/user/UserLoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/mapper/BookAdminsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Admins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Admins.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookAdmins.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BookType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BooksBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/BooksBorrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Violation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/Violation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BookDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BookDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BooksBorrowDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BooksBorrowDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowTypeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/BorrowTypeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/ViolationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/pojo/dto/ViolationDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/AdminsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/AdminsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/BookAdminsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/AdminsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/AdminsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/BookAdminsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/UsersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/UsersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/ViolationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/book/backend/service/impl/ViolationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/BookAdminsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/book/backend/VueBookBackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/book/backend/VueBookBackendApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BookAdminsMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dev.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/dev.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.CrawlerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.CrawlerTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendApplicationTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendUserTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.book.backend.VueBookBackendUserTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.CrawlerTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.CrawlerTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendApplicationTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendUserTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.book.backend.VueBookBackendUserTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/jsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/demo_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/demo_index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/iconfont.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/iconfont.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/assets/fonts/iconfont.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/404/404.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/404/404.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/AdminManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/AdminManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookAdminManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookAdminManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookType.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/BookType.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/HomeAdmin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/HomeAdmin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/LoginAdmin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/LoginAdmin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementRuleManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementRuleManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementSearch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Admin/StatementSearch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Book/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Book/Search.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BookExpire.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BookExpire.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BorrowBook.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BorrowBook.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BorrowStatement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/BorrowStatement.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/LoginBookManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/LoginBookManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/NoticeManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/NoticeManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/ReturnBook.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/ReturnBook.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/ReturnStatement.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/BookManage/ReturnStatement.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Chart/ChartLint.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Chart/ChartLint.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Chart/PieChart.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Chart/PieChart.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Home/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Home/HomeManage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Home/HomeManage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Index/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Index/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Swiper/swiper.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Swiper/swiper.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Borrow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Borrow.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Comment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Comment.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Information.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Information.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Notice.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Notice.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Rule.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Rule.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Violation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/User/Violation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Utils/htmlToPdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/components/Utils/htmlToPdf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/main-dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/main-dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/main-prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/main-prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/plugins/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/plugins/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue_-book-manage-system/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/vue_-book-manage-system/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" beforeDir="false" afterPath="$PROJECT_DIR$/图书管理系统后台API接口文档.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
